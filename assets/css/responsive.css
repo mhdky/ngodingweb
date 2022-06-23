@@ -1,0 +1,193 @@
+/* all section */
+@media screen and (max-width:834px) {
+    a, .list-left-name-section i, .list-burger-btn, .burger-btn, .list .list-burger-btn, .btn-mulai {
+        cursor: default;
+    }
+}
+
+/* list section */
+@media screen and (max-width:768px) {
+    .list li:first-child, .list li:nth-child(2) {
+        display: none;
+    }
+}
+
+/* list left sention */
+@media screen and (max-width:302px) {
+    .list-left {
+        width: 200px;
+    }
+}
+
+/* jumbotron section */
+@media screen and (max-width:884px) {
+    .become {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:756px) {
+    .intro {
+        height: 200px;
+    }
+
+    .become {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:712px) {
+    .box-jumbotron {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .intro {
+        order: 2;
+        align-items: center;
+    }
+
+    .intro h1 {
+        text-align: center;
+    }
+
+    .intro p {
+        text-align: center;
+    }
+
+    .become {
+        order: 1;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .become {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:332px) {
+    .intro {
+        height: 250px;
+    }
+}
+
+/* kategori section */
+@media screen and (max-width:1230px) {
+    .container-kategori {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1228px) {
+    .kategori {
+        width: 32.2vw;
+    } 
+}
+@media screen and (max-width:1177px) {
+    .kategori {
+        width: 32.1vw;
+    } 
+}
+@media screen and (max-width:1081px) {
+    .kategori {
+        width: 32vw;
+    } 
+}
+@media screen and (max-width:1000px) {
+    .box-kategori {
+        justify-content: center;
+    }
+
+    .kategori {
+        width: 48.4vw;
+    } 
+
+    .kategori-end {
+        width: 97.7vw;
+    }
+
+    .more .p-end {
+        width: 900px;
+    }
+}
+@media screen and (max-width:937px) {
+    .kategori {
+        width: 48.3vw;
+    } 
+
+    .kategori-end {
+        width: 97.7vw;
+    }
+}
+@media screen and (max-width:882px) {
+    .kategori {
+        width: 48.2vw;
+    } 
+
+    .kategori-end {
+        width: 97.7vw;
+    }
+}
+@media screen and (max-width:833px) {
+    .kategori {
+        width: 48.1vw;
+    } 
+
+    .kategori-end {
+        width: 97.7vw;
+    }
+}
+@media screen and (max-width:789px) {
+    .kategori {
+        width: 97.7vw;
+    } 
+
+    .more p {
+        width: 700px;
+    }
+
+    .kategori-end {
+        width: 97.7vw;
+    }
+}
+@media screen and (max-width:700px) {
+    .kategori {
+        width: 95.7vw;
+    } 
+
+    .more p {
+        width: 700px;
+    }
+
+    .kategori-end {
+        width: 95.7vw;
+    }
+}
+@media screen and (max-width:496px) {
+    .kategori {
+        width: 94vw;
+    } 
+
+    .more p {
+        width: 700px;
+    }
+
+    .kategori-end {
+        width: 94vw;
+    }
+}
+@media screen and (max-width:400px) {
+    .kategori {
+        width: 93.5vw;
+    } 
+
+    .more p {
+        width: 700px;
+    }
+
+    .kategori-end {
+        width: 93.5vw;
+    }
+}

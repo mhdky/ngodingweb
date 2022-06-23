@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #E8E8E8;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #1E293B;
+}
+
+header {
+    background-color: #161632;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: pink; */
+}
+
+/* logo section */
+.logo {
+    width: 150px;
+    margin-left: 10px;
+}
+
+/* list section */
+.list ul {
+    display: flex;
+}
+
+.list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.list .list-burger-btn {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.link-list {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.list li:first-child {
+    background-color: #1C1C58;
+}
+
+.list li:hover {
+    background-color: #1C1C58;
+}
+
+.list li p {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.list li p, .list li i, .list-left li p, .list-left li i {
+    color: #6D6DC8;
+}
+
+.list li img {
+    width: 27px;
+}
+
+/* burger btn section */
+.burger-btn {
+    width: 30px;
+    height: 30px;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.line-burger-btn {
+    width: 25px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #6D6DC8;
+    margin: 2px 0;
+}
+
+/* list left section */
+.container-list-left {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(22, 22, 50, 0.5);
+    transform: translateX(-100%);
+    transition: 0.5s;
+}
+
+.container-list-left-show {
+    transform: translateX(0);
+}
+
+.list-left {
+    width: 300px;
+    height: 100%;
+    background-color: rgb(22, 22, 50);
+    overflow: auto;
+}
+
+.list-left-name-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px;
+}
+
+.list-left-name-section p, .list-left-name-section i {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.list-left-name-section i {
+    background-color: rgb(28, 28, 88, 0.5);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    line-height: 0;
+    cursor: pointer;
+}
+
+.list-left-name-section i:hover {
+    background-color: #1C1C58;
+}
+
+.list-left li {
+    display: flex;
+    align-items: center;
+    margin: 10px 30px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.list-left li:hover {
+    background-color: #1C1C58;
+}
+
+.list-left li p {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.list-left li img {
+    width: 30px;
+}
+
+.list-left li .ig {
+    font-size: 1.3rem;
+}
+
+.list-left li .yt {
+    font-size: 1.2rem;
+}
+
+/* jumbotron section */
+.container-jumbotron {
+    background-color: #1C1C58;
+    margin-top: 90px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.box-jumbotron {
+    width: 1200px;
+    margin: 0 10px;
+    /* background-color: #6D6DC8; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.intro h1 {
+    font-size: 3rem;
+}
+
+.intro p {
+    font-size: 1.5rem;
+    line-height: 33px;
+}
+
+.btn-mulai {
+    padding: 10px 15px;
+    background-color: rgb(109, 109, 200, 0.7);
+    color: #1C1C58;
+    width: max-content;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-mulai:hover {
+    background-color: #6D6DC8;
+}
+
+.become {
+    width: 450px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* kategori section */
+.container-kategori {
+    width: 1230px;
+    margin-top: 50px;
+    padding: 0 5px;
+    padding-bottom: 50px;
+    /* background-color: #303037; */
+}
+
+.container-kategori h3 {
+    color: #6D6DC8;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.container-kategori h2 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.box-kategori {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kategori {
+    width: 396px;
+    margin: 5px;
+    padding: 15px;
+    background-color: rgb(109, 109, 200, 0.3);
+    box-shadow: 1px 1px 1px black;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.ketegori-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.kategori:hover {
+    background-color: rgb(109, 109, 200, 0.4);
+}
+
+.logo-kategori {
+    background-color: rgb(109, 109, 200, 0.7);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.kategori h4 {
+    margin-bottom: 10px;
+    color: #6D6DC8;
+    line-height: 22px;
+}
+
+.more {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more i {
+    font-size: 2rem;
+}
+
+.more p {
+    /* background-color: pink; */
+    width: 330px;
+    line-height: 21px;
+    margin-right: 10px;
+    /* background-color: palevioletred; */
+}
