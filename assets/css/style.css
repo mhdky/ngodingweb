@@ -52,6 +52,7 @@ nav {
     margin: 0 10px;
     padding: 5px 10px;
     border-radius: 10px;
+    cursor: pointer;
     position: relative;
 }
 
@@ -414,6 +415,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    position: relative;
 }
 
 .notifikasi-kiri p {
@@ -465,9 +467,128 @@ main {
     width: 250px;
 }
 
+.notifikasi-dua {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(10, 10, 13, 0.9);
+    z-index: 5;
+    overflow: hidden;
+    animation: feed-in 0.3s ease-in-out;
+}
+
+@keyframes feed-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.close-notifikasi-dua {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.btn-notifikasi-dua-left {
+    cursor: pointer;
+}
+
 /* footer section */
 footer {
     margin-top: 50px;
-    padding: 100px 0;
+    padding: 50px 0 0 0;
     background-color: #0F0F35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-footer {
+    width: 1210px;
+    padding: 0 10px;
+}
+
+.container-footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-logo {
+    width: 300px;
+}
+
+.container-medsos-and-thanks {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.medsos-and-thanks li:first-child {
+    color: #6D6DC8;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.medsos-and-thanks li {
+    list-style: none;
+    margin: 3px 0;
+    width: max-content;
+}
+
+.medsos-and-thanks li a {
+    text-decoration: none;
+}
+
+.medsos-and-thanks li a:hover {
+    color: #00AED4;
+}
+
+/* copyright section */
+.copyright {
+    border-top: 1px solid #4D4D84;
+    text-align: center;
+    color: #4F4FA1;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+/* artikel.php */
+/* artikel.php */
+/* artikel.php */
+/* artikel.php */
+/* artikel.php */
+/* artikel.php */
+/* artikel.php */
+/* artikel.php */
+
+/* tutorial section dari artikel.php */
+.kategori-artikel-php {
+    margin-top: 140px;
+}
+
+/* list dari artikel.php */
+.list ul .li-first-child-artikel-html, .list-left ul .li-first-child-artikel-html {
+    background-color: transparent;
+}
+
+.list ul .li-first-child-artikel-html:hover, .list-left ul .li-first-child-artikel-html:hover {
+    background-color: #1C1C58;
 }
