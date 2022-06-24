@@ -1,13 +1,13 @@
 /* all section */
 @media screen and (max-width:834px) {
-    a, .list-left-name-section i, .list-burger-btn, .burger-btn, .list .list-burger-btn, .btn-mulai, .notif-post button {
+    a, .list-left-name-section i, .list-burger-btn, .burger-btn, .list .list-burger-btn, .btn-mulai, .notif-post button, .close-notifikasi-dua {
         cursor: default;
     }
 }
 
 /* list section */
 @media screen and (max-width:768px) {
-    .list li:first-child, .list li:nth-child(2) {
+    .list li:first-child, .list li:nth-child(2), .list li:nth-child(3) {
         display: none;
     }
 }
@@ -242,5 +242,33 @@
 @media screen and (max-width:280px) {
     .notif-post input {
         width: 220px;
+    }
+}
+
+/* footer section */
+@media screen and (max-width:1220px) {
+    .box-footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .footer-logo {
+        display: none;
+    }
+
+    .container-medsos-and-thanks {
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .container-medsos-and-thanks {
+        flex-direction: column;
+    }
+
+    .medsos-and-thanks {
+        margin: 10px 0;
     }
 }
