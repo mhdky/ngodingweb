@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 
 * {
@@ -5,7 +6,8 @@
     padding: 0;
     box-sizing: border-box;
     color: #E8E8E8;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -66,7 +68,7 @@ nav {
     left: 0;
 }
 
-.list li:first-child {
+.list li:first-child, .list-left li:first-child {
     background-color: #1C1C58;
 }
 
@@ -77,6 +79,8 @@ nav {
 .list li p {
     margin-left: 5px;
     font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: pink;
 }
 
 .list li p, .list li i, .list-left li p, .list-left li i {
@@ -138,6 +142,10 @@ nav {
     margin: 20px 40px;
 }
 
+.list-left-name-section p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .list-left-name-section p, .list-left-name-section i {
     font-size: 1.3rem;
     font-weight: bold;
@@ -175,6 +183,7 @@ nav {
 .list-left li p {
     padding-left: 10px;
     font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .list-left li img {
@@ -216,11 +225,13 @@ nav {
 
 .intro h1 {
     font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .intro p {
     font-size: 1.5rem;
     line-height: 33px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .btn-mulai {
@@ -231,6 +242,16 @@ nav {
     font-weight: bold;
     cursor: pointer;
     transition: 0.5s;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+
+.link-mulai {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 .btn-mulai:hover {
@@ -252,7 +273,7 @@ main {
     width: 1230px;
     margin-top: 50px;
     padding: 0 5px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
     /* background-color: #303037; */
 }
 
@@ -328,4 +349,125 @@ main {
     line-height: 21px;
     margin-right: 10px;
     /* background-color: palevioletred; */
+}
+
+/* tutorial section */
+.container-tutorial {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lihat-semua-tutorial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-lihat-semua-tutorial {
+    background-color: rgb(109, 109, 200, 0.3);
+    padding: 5px 10px;
+    margin: 0 10px 10px 10px;
+    border-radius: 5px;
+    width: max-content;
+    height: max-content;
+    position: relative;
+    transition: 0.5s;
+    font-size: 0.9rem;
+}
+
+.btn-lihat-semua-tutorial:hover {
+    background-color: rgb(109, 109, 200, 0.4);
+}
+
+.tutorial {
+    width: 396px;
+    margin: 5px;
+    padding: 15px;
+    background-color: rgb(109, 109, 200, 0.3);
+    box-shadow: 1px 1px 1px rgb(20, 23, 36);
+    border-radius: 5px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.tutorial:hover {
+    background-color: rgb(109, 109, 200, 0.4);
+}
+
+.tutorial img {
+    width: 100%;
+}
+
+.tutorial .jdl-tutorial {
+    color: #6D6DC8;
+    margin-top: 5px;
+    margin-left: 0;
+}
+
+/* notifikasi section */
+.container-notifikasi {
+    width: 1210px;
+    margin: 0 10px;
+    padding: 50px 0;
+    background-color: #25254E;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.notifikasi-kiri p {
+    line-height: 25px;
+}
+
+.notifikasi-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.notifikasi-logo img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.notifikasi-logo p {
+    color: #00AED4;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.notif-post input {
+    background-color: #008dad;
+    border-color: transparent;
+    padding: 5px;
+    width: 450px;
+    outline: 0;
+}
+
+.notif-post input::placeholder {
+    color: rgb(204, 204, 204);
+}
+
+.notif-post button {
+    background-color: #008dad;
+    border-color: transparent;
+    padding: 5px 10px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.nama-box-input {
+    margin-bottom: 5px;
+}
+
+.gambar-kanan {
+    width: 250px;
+}
+
+/* footer section */
+footer {
+    margin-top: 50px;
+    padding: 100px 0;
+    background-color: #0F0F35;
 }
