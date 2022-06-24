@@ -33,6 +33,12 @@
                         <a href="#" class="link-list"></a>
                     </li>
 
+                    <li class="btn-notifikasi-dua">
+                        <i class="fas fa-bell"></i>
+                        <p>Dapatkan Notifikasi</p>
+                        <a class="link-list"></a>
+                    </li>
+
                     <li>
                         <img src="assets/img/about-logo.png" alt="">
                         <p>About</p>
@@ -66,24 +72,30 @@
                     <i class="fas fa-home"></i>
                     <p>Home</p>
                     <a href="#" class="link-list"></a>
-                </li>                
+                </li>     
+
+                <li class="btn-notifikasi-dua-left">
+                    <i class="fas fa-bell"></i>
+                    <p>Dapatkan Notifikasi</p>
+                    <a class="link-list"></a>
+                </li>
 
                 <li>
                     <i class="fab fa-instagram ig"></i>
                     <p>Instagram</p>
-                    <a href="#" class="link-list"></a>
+                    <a href="https://www.instagram.com/ngoding.web/" class="link-list"></a>
                 </li>
 
                 <li>
                     <i class="fab fa-youtube yt"></i>
                     <p>Youtube</p>
-                    <a href="#" class="link-list"></a>
+                    <a href="https://www.youtube.com/channel/UCdM-oZL2t_STGHAFyz2v6DQ" class="link-list"></a>
                 </li>
 
                 <li>
                     <i class="fab fa-github yt"></i>
                     <p>Github</p>
-                    <a href="#" class="link-list"></a>
+                    <a href="https://github.com/ngodingweb" class="link-list"></a>
                 </li>
 
                 <li>
@@ -115,7 +127,7 @@
         <!-- kategori section -->
         <div class="container-kategori">
             <h3>Kategori</h3>
-            <h2>Ikuti tutorial sesuai keinginanmu</h2>
+            <h2>Tutorial apa saja yang ada di sini?</h2>
             <div class="box-kategori">
                 <div class="kategori">
                     <div class="logo-kategori">
@@ -124,11 +136,11 @@
                     <h4>Web Design Dengan Html, Css</h4>
 
                     <div class="more">
-                        <p>Ikuti tutorial membuat web design dengan menggunakan Html dan Css seperti membuat Card, List Logo dan banyak lagi.</p>
+                        <p>Kamu bisa mengikuti tutorial mendesign website dengan menggunakan Html dan Css, tanpa menggunakan Javascript.</p>
                         <i class="fas fa-angle-right"></i>
                     </div>
 
-                    <a href="#" class="ketegori-link"></a>
+                    <a href="artikel.html" class="ketegori-link"></a>
                 </div>
 
                 <div class="kategori">
@@ -138,25 +150,25 @@
                     <h4>Web Design Dengan Html, Css, dan Javascript</h4>
 
                     <div class="more">
-                        <p>Ikuti tutorial dan buat websitmu lebih cerdas lagi dengan menambahkan code javascript, seperti melakukan manipulasi DOM</p>
+                        <p>Membuat web design dengan menggunakan Html, Css dan ditambah Javascript agar website kamu lebih cerdas lagi dengan DOM Manipulation.</p>
                         <i class="fas fa-angle-right"></i>
                     </div>
 
-                    <a href="#" class="ketegori-link"></a>
+                    <a href="artikel.html" class="ketegori-link"></a>
                 </div>
 
                 <div class="kategori kategori-end">
                     <div class="logo-kategori">
                         <i class="fas fa-database"></i>
                     </div>
-                    <h4>Web Backend Dengan PHP, dan database Mysql</h4>
+                    <h4>Web Backend Dengan PHP dan Mysql</h4>
 
                     <div class="more">
-                        <p class="p-end">Ikuti tutorial membuat website yang dinamis dengan bahasa permorgraman PHP dan databese Mysql, seperti melakukan CRUD.</p>
+                        <p class="p-end">Kamu dapat membuat website yang dinamis dengan bahasa permorgraman PHP dan databese Mysql, seperti melakukan CRUD.</p>
                         <i class="fas fa-angle-right" id="mulai-tutorial"></i>
                     </div>
 
-                    <a href="#" class="ketegori-link"></a>
+                    <a href="artikel.html" class="ketegori-link"></a>
                 </div>
             </div>
             
@@ -172,7 +184,7 @@
 
                 <div class="btn-lihat-semua-tutorial">
                     Lihat Semua <i class="fas fa-angle-right" id="mulai-tutorial"></i>
-                    <a href="#" class="ketegori-link"></a>                    
+                    <a href="artikel.html" class="ketegori-link"></a>                    
                 </div>
             </div>
             
@@ -258,10 +270,67 @@
 
             <img src="assets/img/notif.png" alt="" class="gambar-kanan">
         </div>
+
+        <!-- nptification dua -->
+        <div class="notifikasi-dua">            
+            <div class="container-notifikasi">
+                <i class="fas fa-times close-notifikasi-dua"></i>
+                <div class="notifikasi-kiri">
+                    <div class="notifikasi-logo">
+                        <img src="assets/img/email.png" alt="">
+                        <p>Notifikasi..</p>
+                    </div>
+    
+                    <p>Mau dapat notifikasi artikel terbaru langsung ke email kamu</p>
+                    <br>
+    
+                    <form action="" method="post" class="notif-post">
+                        <p class="nama-box-input">Nama:</p>
+                        <input type="text" name="notif_name" placeholder="Nama" required>
+                        <br><br>
+    
+                        <p class="nama-box-input">Email:</p>
+                        <input type="email" name="notif_name" placeholder="Alamat Email" required>
+                        <br><br>
+                        <button type="submit" name="notif_submit">Kirim</button>
+                    </form>
+                </div>
+    
+                <img src="assets/img/notif.png" alt="" class="gambar-kanan">
+            </div>
+        </div>
     </main>
 
     <footer>
-        
+        <div class="box-footer">
+            <div class="container-footer-top">
+                <img src="assets/img/ngoding-web.png" alt="" class="footer-logo">
+                
+                <div class="container-medsos-and-thanks">
+                    <div class="medsos-and-thanks">
+                        <ul>
+                            <li>Sosial Media</li>
+                            <li><a href="https://www.instagram.com/ngoding.web/">Instagram</a></li>
+                            <li><a href="https://www.youtube.com/channel/UCdM-oZL2t_STGHAFyz2v6DQ">Youtube</a></li>
+                            <li><a href="https://github.com/ngodingweb">Github</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="medsos-and-thanks">
+                        <ul>
+                            <li>Terimakasih Kepada</li>
+                            <li><a href="https://fonts.google.com/">Google Font</a></li>
+                            <li><a href="https://fontawesome.com/">Font Awesome</a></li>
+                            <li><a href="https://iconscout.com/">Icon Scout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="copyright">
+            © 2022 Ngoding Web ||  All Rights Reserved.
+        </p>
     </footer>
 
     <script src="assets/js/script.js"></script>
