@@ -1,6 +1,6 @@
 /* all section */
 @media screen and (max-width:834px) {
-    a, .list-left-name-section i, .list-burger-btn, .burger-btn, .list .list-burger-btn, .btn-mulai {
+    a, .list-left-name-section i, .list-burger-btn, .burger-btn, .list .list-burger-btn, .btn-mulai, .notif-post button {
         cursor: default;
     }
 }
@@ -81,17 +81,17 @@
 }
 
 @media screen and (max-width:1228px) {
-    .kategori {
+    .kategori, .tutorial {
         width: 32.2vw;
     } 
 }
 @media screen and (max-width:1177px) {
-    .kategori {
+    .kategori, .tutorial {
         width: 32.1vw;
     } 
 }
 @media screen and (max-width:1081px) {
-    .kategori {
+    .kategori, .tutorial {
         width: 32vw;
     } 
 }
@@ -100,7 +100,7 @@
         justify-content: center;
     }
 
-    .kategori {
+    .kategori, .tutorial {
         width: 48.4vw;
     } 
 
@@ -113,7 +113,7 @@
     }
 }
 @media screen and (max-width:937px) {
-    .kategori {
+    .kategori, .tutorial {
         width: 48.3vw;
     } 
 
@@ -122,7 +122,7 @@
     }
 }
 @media screen and (max-width:882px) {
-    .kategori {
+    .kategori, .tutorial {
         width: 48.2vw;
     } 
 
@@ -131,7 +131,7 @@
     }
 }
 @media screen and (max-width:833px) {
-    .kategori {
+    .kategori, .tutorial {
         width: 48.1vw;
     } 
 
@@ -140,7 +140,7 @@
     }
 }
 @media screen and (max-width:789px) {
-    .kategori {
+    .kategori, .tutorial {
         width: 97.7vw;
     } 
 
@@ -153,7 +153,7 @@
     }
 }
 @media screen and (max-width:700px) {
-    .kategori {
+    .kategori, .tutorial {
         width: 95.7vw;
     } 
 
@@ -189,5 +189,58 @@
 
     .kategori-end {
         width: 93.5vw;
+    }
+}
+
+/* tutorial section */
+@media screen and (max-width:400px) {
+    .tutorial {
+        width: 94vw;
+    }
+}
+
+/* notifikasi section */
+@media screen and (max-width:1228px) {
+    .container-notifikasi {
+        width: 98.2%;
+    }
+}
+
+@media screen and (max-width:774px) {
+    .container-notifikasi {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .notif-post input {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:664px) {
+    .container-notifikasi {
+        width: 96%;
+    }
+
+    .gambar-kanan {
+        display: none;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .notif-post input {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .notif-post input {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .notif-post input {
+        width: 220px;
     }
 }
