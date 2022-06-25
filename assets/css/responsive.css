@@ -1,6 +1,6 @@
 /* all section */
 @media screen and (max-width:834px) {
-    a, .list-left-name-section i, .list-burger-btn, .burger-btn, .list .list-burger-btn, .btn-mulai, .notif-post button, .close-notifikasi-dua {
+    a, .list-left-name-section i, .list-burger-btn, .burger-btn, .list .list-burger-btn, .btn-mulai, .notif-post button, .close-notifikasi-dua, .btn-daftar-isi {
         cursor: default;
     }
 }
@@ -270,5 +270,110 @@
 
     .medsos-and-thanks {
         margin: 10px 0;
+    }
+}
+
+/* konten.php */
+/* konten.php */
+/* konten.php */
+/* konten.php */
+/* konten.php */
+
+/* konten section */
+@media screen and (max-width:1200px) {
+    .container-konten {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .container-konten {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .konten-kiri {
+        width: 740px;
+        margin-bottom: 15px;
+    }
+
+    .konten-kanan {
+        width: 740px;
+    }
+
+    .judul-tutorial-terbaru {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:740px) {
+
+    .container-konten {
+        padding: 0;
+    }
+
+    .konten-kiri {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .konten-kanan {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .judul-tutorial-terbaru {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width:462px) {
+    .sosial i, .sosial p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:438px) {
+    article {
+        font-size: 1rem;
+    }
+
+    .judul-tutorial-terbaru {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:368px) {
+    .sosial i, .sosial p {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:338px) {
+    .card-tutorial-terbaru {
+        flex-direction: column;
+    }
+
+    .judul-tutorial-terbaru {
+        width: 100%;
+    }
+
+    .img-tutorial-terbaru {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .youtube iframe {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:312px) {
+    .sosial i, .sosial p {
+        font-size: 0.7rem;
     }
 }
